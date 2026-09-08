@@ -1,0 +1,19 @@
+# ===== USB_NetShare_Tool .gitignore =====
+
+# 本地配置文件（防止误提交）
+config.ini
+
+# 日志文件
+*.log
+
+# adb 工具：约 10MB+，需使用者自行下载，严禁入库
+adb/
+
+# Windows 系统杂项
+Thumbs.db
+Desktop.ini
+desktop.ini
+*.tmp
+
+# macOS 杂项
+.DS_Store
